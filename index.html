@@ -1,11 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-Hant">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>台積電股價趨勢與展望專題</title>
     <style>
-        /* 整體背景和文字 */
         body {
             font-family: 'Arial', sans-serif;
             background-color: #f4f4f9;
@@ -15,7 +14,6 @@
             line-height: 1.6;
         }
 
-        /* 網頁頭部 */
         header {
             background-color: #2c3e50;
             color: white;
@@ -32,7 +30,6 @@
             color: #34495e;
         }
 
-        /* 內容區域 */
         .container {
             max-width: 900px;
             margin: 40px auto;
@@ -48,10 +45,9 @@
         }
 
         .item {
-            margin-bottom: 15px;
+            margin-bottom: 30px;
         }
 
-        /* 標題的排版效果 */
         .section-title {
             font-size: 1.5em;
             color: #2ecc71;
@@ -63,7 +59,6 @@
             margin-bottom: 20px;
         }
 
-        /* 小組成員列表 */
         .team-list {
             list-style-type: none;
             padding: 0;
@@ -74,7 +69,6 @@
             margin: 5px 0;
         }
 
-        /* Footer區域 */
         footer {
             text-align: center;
             background-color: #2c3e50;
@@ -83,6 +77,14 @@
             position: fixed;
             bottom: 0;
             width: 100%;
+        }
+
+        ul {
+            margin: 0 0 20px 20px;
+        }
+
+        ul li {
+            margin-bottom: 5px;
         }
     </style>
 </head>
@@ -95,53 +97,69 @@
 <div class="container">
     <section class="item">
         <h2 class="section-title">專題名稱:</h2>
-        <p class="section-content">台積電股價趨勢與展望(2025~2030)</p>
+        <p class="section-content">台積電股價趨勢與展望 (2025~2030)</p>
     </section>
 
     <section class="item">
         <h2 class="section-title">專題說明:</h2>
-        <p class="section-content">收集台積電2015至2025歷史資料，透過股市四大面向(基本面、消息面、籌碼面、技術面)評估台積電未來的股價走勢</p>
+        <p class="section-content">
+            收集台積電2015至2025歷史資料，透過股市四大面向（基本面、消息面、籌碼面、技術面）評估台積電未來的股價走勢。
+        </p>
     </section>
 
     <section class="item">
         <h2 class="section-title">資料來源/取得方式:</h2>
-        
-        <u1 class="section-content">基本面 :
-            <li>資料來源 : </li>            
-        </ui>
-        <br>
-        <u1 class="section-content">消息面 :
-            <li>資料來源 : <a href="https://udndata.com/ndapp/upoint/udntag/Index">聯合線上-全文報紙資料庫</a></li>            
-        </ui>
-        <br>
-        <u1 class="section-content">籌碼面 :
-            <li>資料來源 : <a href="https://goodinfo.tw/tw/index.asp">台灣股市資訊網</a></li>            
-        </ui>
-        <br>
-        <u1 class="section-content">技術面 :
-            <li>資料來源 : <a href="https://finance.yahoo.com/quote/TSMC.BA/">雅虎財經（Yahoo Finance）</a>、Python金融市場賺大錢聖經：寫出你的專屬指標、Candlestick Charting for Dummies</li>
-            <li>取得方式 : YFinance</li>
-            <li>分析方式 : TA</li>
-        </ui>
 
+        <div class="section-content">
+            <strong>基本面：</strong>
+            <ul>
+                <li>資料來源：</li>
+            </ul>
+
+            <strong>消息面：</strong>
+            <ul>
+                <li>資料來源：<a href="https://udndata.com/ndapp/upoint/udntag/Index" target="_blank">聯合線上 - 全文報紙資料庫</a></li>
+            </ul>
+
+            <strong>籌碼面：</strong>
+            <ul>
+                <li>資料來源：<a href="https://goodinfo.tw/tw/index.asp" target="_blank">台灣股市資訊網</a></li>
+            </ul>
+
+            <strong>技術面：</strong>
+            <ul>
+                <li>資料來源：<a href="https://finance.yahoo.com/quote/TSMC.BA/" target="_blank">Yahoo 財經</a>、Python 金融市場賺大錢聖經、Candlestick Charting for Dummies</li>
+                <li>取得方式：YFinance</li>
+                <li>分析方式：TA（技術分析）</li>
+            </ul>
+        </div>
     </section>
 
     <section class="item">
         <h2 class="section-title">成員與成員負責項目:</h2>
         <ul class="team-list">
-            <li><strong>價值投資組:</strong> 賴建木(基本面)、陳品樺(消息面)、陳翊寧(基本面)、林佩怡(消息面)</li>
-            <li><strong>技術分析組:</strong> 邱麗惠(籌碼面)、鄭顏慶(技術面)、雷敏(支援與網頁架設)</li>
+            <li><strong>價值投資組：</strong>賴建木（基本面）、陳品樺（消息面）、陳翊寧（基本面）、林佩怡（消息面）</li>
+            <li><strong>技術分析組：</strong>邱麗惠（籌碼面）、鄭顏慶（技術面）、雷敏（支援與網頁架設）</li>
         </ul>
     </section>
 
     <section class="item">
         <h2 class="section-title">分析目的與預計提供見解:</h2>
-        <p class="section-content">藉由分析報告建議投資人買入、賣出或持有台積電以獲得最大收益</p>
+        <p class="section-content">
+            藉由分析報告建議投資人買入、賣出或持有台積電，以獲得最大收益。
+        </p>
     </section>
 
     <section class="item">
-        <h2 class="section-title">報告摘要:(暫時表示,非相關)</h2>
-        <iframe title="信用卡消費紀錄報表_測試" width="900" height="570" src="https://app.powerbi.com/view?r=eyJrIjoiMzZlYjNlM2EtODA1NC00MjA0LWJiMmMtOWY3OGNiNjA5ZTJjIiwidCI6ImYxY2FlZGQ1LWUxNzUtNGU3YS1iMWJmLWQ0MTRjNTA1M2IxMiJ9" frameborder="0" allowFullScreen="true"></iframe>
+        <h2 class="section-title">報告摘要（暫時表示，非相關）:</h2>
+        <iframe 
+            title="信用卡消費紀錄報表_測試" 
+            width="900" 
+            height="570" 
+            src="https://app.powerbi.com/view?r=eyJrIjoiMzZlYjNlM2EtODA1NC00MjA0LWJiMmMtOWY3OGNiNjA5ZTJjIiwidCI6ImYxY2FlZGQ1LWUxNzUtNGU3YS1iMWJmLWQ0MTRjNTA1M2IxMiJ9" 
+            frameborder="0" 
+            allowfullscreen>
+        </iframe>
     </section>
 </div>
 

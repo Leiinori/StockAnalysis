@@ -9,17 +9,17 @@ Website: https://leiinori.github.io/StockAnalysis/
 目的: 結合課堂所學知識並進行實際應用
 
 Python程式方面練習及應用:
-a. 使用Python爬蟲與套件收集資訊
+1. 使用Python爬蟲與套件收集資訊
 
 Power Query與Power BI資料處理:
-a. 使用Power Query對資料進行清洗, 使用Power BI進行分析與製作報表
+1. 使用Power Query對資料進行清洗, 使用Power BI進行分析與製作報表
 
-b. 使用Office 365 E5線上功能將製作完成的.pbix上傳並發行成內嵌報表, 可嵌入Web及Power Point
+2. 使用Office 365 E5線上功能將製作完成的.pbix上傳並發行成內嵌報表, 可嵌入Web及Power Point
 
 GitHub版本管理練習與html網頁編寫:
-a. 練習GitHub操作, 使用GitHub可網頁展示的功能 
+1. 練習GitHub操作, 使用GitHub可網頁展示的功能 
 
-b. 編寫簡易的html網頁, 將專題報告在GitHub網頁上進行呈現
+2. 編寫簡易的html網頁, 將專題報告在GitHub網頁上進行呈現
 
 ======================================
 組員及工作項目:
